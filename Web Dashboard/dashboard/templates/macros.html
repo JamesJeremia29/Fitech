@@ -1,0 +1,50 @@
+{% macro newComponent(type,title,width,height,content={}) -%}
+    <div class='container {{type}}'>
+        <h1 class="title">
+            {{title}}
+        </h1>
+
+
+    </div>
+{%- endmacro %}
+
+{% macro addGraph(title,width,height,data={}) -%}
+<div class='container graph item1'>
+    <h1 class="title">
+        {{title}}
+    </h1>
+    <div>
+        {% for row in data %}
+        {% endfor %}
+    </div>
+</div>
+{%- endmacro %}
+
+{% macro addText(title,width,height,data=[],add_class='') -%}
+<div class="container text workout {{add_class}}">
+    <h1 class="title">
+        {{title}}
+    </h1>
+    <div class="content col">
+        {% for key,value in data.items() %}
+            <div class="lr-text">
+                <p class="left">{{key}}</p>
+                <p class="right">{{value}}</p>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{%- endmacro %}
+
+{% macro addNum(title,width,height,add_class='',num=0) -%}
+<div class="container number test {{add_class}}">
+    <h2 class="title">
+        {{title}}
+    </h2>
+    <div class="disp-num">
+    <h1>
+        {{num}}
+    </h1>
+    </div>
+</div>
+{%- endmacro %}

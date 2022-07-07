@@ -1,0 +1,32 @@
+{% extends 'header.html' %}
+{% import 'macros.html' as macs %}
+
+{% block title %}
+    Dashboard
+{% endblock %}
+
+{% block link %}
+<link rel="stylesheet" href="{{ url_for('static',filename='css/card.css') }}">
+<link rel="stylesheet" href="{{ url_for('static',filename='css/dash.css') }}">
+<link rel="icon" href="{{ url_for('static',filename='images/favicon.ico') }}" type="image/x-icon"/>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="{{url_for('static',filename='js/graph.js')}}" defer></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat" rel='stylesheet' type='text/css'> 
+{% endblock %}
+
+
+{% block content -%}
+    <div class="header">
+        <img src="{{ url_for('static',filename='images/logo.png') }}" width="200px" height="200px">
+
+    </div>
+    <div class="dash-body" id='dash-line'>
+        {{ macs.addGraph('Total Users per Day',4,2,data=data[0]) }}
+        {{ macs.addNum('Current User',1,1,'item2',num=data[1]) }}
+        {{ macs.addText('Most Picked Exercise',1,2,data=data[2],add_class='item3') }}
+        {{ macs.addNum('Users Today',1,1,'item4',num=data[3]) }}
+        {{ macs.addText('User Based on Location',1,2,data=data[5],add_class='item6') }}
+    </div>
+{%- endblock %}
+<script>
+</script>

@@ -1,0 +1,35 @@
+.dash-body{
+    padding: 2em 20vw;
+    grid-auto-columns: minmax(0,1fr);
+    grid-auto-rows: minmax(0,1fr);
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+    "1fr 1fr 1fr 1fr"
+    "1fr 1fr 1fr 1fr"
+    "1fr 1fr 1fr 1fr"
+    "1fr 1fr 1fr 1fr"
+    "1fr 1fr 1fr 1fr";
+    /*max-width:1000px;*/
+}
+
+body{
+    background-color: #272929;/*#00A18E;*/
+    color:white;
+    font-family:Montserrat;
+}
+.header{
+    text-align: center;
+}
+.title{
+    margin: 0;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+@media (max-width:800px) {
+    .dash-body{
+        padding:0;
+    }
+
+}
