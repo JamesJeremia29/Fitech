@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "364310885685",
+    "firebase_url": "https://tryal-adf7d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tryal-adf7d",
+    "storage_bucket": "tryal-adf7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364310885685:android:e0bb8c57adef765ee8c87c",
+        "android_client_info": {
+          "package_name": "com.example.fitech_mobile_apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364310885685-fn6qvqj2nmtrlkgrrthrvd9tujrvfl6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitech_mobile_apps",
+            "certificate_hash": "83849d6669119815a20f3d76de8ef013aceff5e2"
+          }
+        },
+        {
+          "client_id": "364310885685-s0j5tmee6tu2m8i64aej0rejifc6s726.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsTuST3a_baWKx6Ehm-k_cvVgHlHXD7QM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364310885685-s0j5tmee6tu2m8i64aej0rejifc6s726.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "364310885685-6f3jda8jgrdin0dr5h1qc92nqi04cro7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fitechMobileApps"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
