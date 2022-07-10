@@ -6,7 +6,7 @@
 #define echoPin 18 //ESP32 pin GPI18 Ultrasonic trigger
 
 #define FIREBASE_Host "https://tryal-adf7d-default-rtdb.asia-southeast1.firebasedatabase.app/"  //Firebase Host
-#define FIREBASE_authorization_key "2jQuI1i569aqqMrFXB4AURN3WFfQMm1GOX5LWxYi"  //Firebase secret key
+#define FIREBASE_authorization_key "secret key"  //Firebase secret key
 
 
 
