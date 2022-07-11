@@ -2,6 +2,7 @@
 Fitness Tracking app with IoT basics and integrated with Machine Learning
 
 Fitech Project Contributors:
+
 Edgar Yurianto      - Project Leader, Web Deployment & Machine Learning Integration
 
 James Jeremia       - Mobile App, Database integration
