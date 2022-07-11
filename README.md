@@ -11,6 +11,8 @@ Revelino Puteraiwan - Hardware, Realtime Database
 
 Nanda Dwi           - 3D Design, Assembly
 
+Excluded : Documentation(PPT, Poster, Video)
+
 <a href="https://github.com/jamesjeremia29/Fitech/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=jamesjeremia29/Fitech" />
 </a>
